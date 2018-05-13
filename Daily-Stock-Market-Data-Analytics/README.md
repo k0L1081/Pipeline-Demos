@@ -15,7 +15,7 @@
 
 ### Get configurations.
 
-Create function to get configuration value from configuration JSON file. By default, configuration file is located in the current working directory and named configuration.json`.
+Create function to get configuration value from configuration JSON file. By default, configuration file is located in the current working directory and named configuration.json.
 
 ```python
 def getConfigurationValue(configurationKey):
@@ -100,7 +100,7 @@ dfCompanies.head(10)
 ```
 **Result:**
 
-![Screenshot](dfCompanies.head(10).PNG)
+![Screenshot](https://s3.amazonaws.com/public-k0l1081/dfCompanies.head(10).PNG)
 
 Create function to filter companies by Symbol or Name.
 
@@ -130,7 +130,7 @@ dfCompaniesFiltered.head(10)
 
 dfCompaniesFiltered count: 67
 
-![Screenshot](dfCompaniesFiltered.head(10).PNG)
+![Screenshot](https://s3.amazonaws.com/public-k0l1081/dfCompaniesFiltered.head(10).PNG)
 
 ### Query Alpha Advantage's Daily Adjusted Stock Market Time Series <a href="https://www.alphavantage.co/documentation/#dailyadj" target="blank">web service</a> for all specified companies.
 
@@ -211,7 +211,7 @@ getAlphaAdvantageDailyAdjustedStockMarketTimeSeries('AMZN').head(10)
 
 **Result:**
 
-![Screenshot](getAlphaAdvantageDailyAdjustedStockMarketTimeSeries('AMZN').head(10).PNG)
+![Screenshot](https://s3.amazonaws.com/public-k0l1081/getAlphaAdvantageDailyAdjustedStockMarketTimeSeries('AMZN').head(10).PNG)
 
 **Test:** Query web service to get daily adjusted time series for **Google**.
 
@@ -222,4 +222,4 @@ getAlphaAdvantageDailyAdjustedStockMarketTimeSeries('AMZN').head(10)
 getAlphaAdvantageDailyAdjustedStockMarketTimeSeries('GOOG').head(10)
 ```
 
-![Screenshot](getAlphaAdvantageDailyAdjustedStockMarketTimeSeries('GOOG').head(10).PNG)
+![Screenshot](https://s3.amazonaws.com/public-k0l1081/getAlphaAdvantageDailyAdjustedStockMarketTimeSeries('GOOG').head(10).PNG)
